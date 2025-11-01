@@ -173,7 +173,7 @@ Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to
 ![Admin Wallboard](Screenshots/admin-wallboard.png)
 
 ### 🧩 Conversion Service (Postman Test)
-![Conversion Postman](Screenshots/conversion-postman)
+![Conversion Postman](Screenshots/conversion-postman.png)
 
 ### 🧩 Zipkin Server
 ![Zipkin Server](Screenshots/zipkin-server.png)
