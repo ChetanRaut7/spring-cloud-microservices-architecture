@@ -25,7 +25,7 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 
 ## 📁 **Folder Structure**
 
-```currency-microservices/
+Currency-microservices/
 │
 ├── eureka-server/                    # Service Discovery (Eureka)
 │   ├── src/main/java/com/sathya/eureka/
@@ -64,7 +64,7 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 │
 ├── pom.xml                           # Parent POM (if using multi-module)
 ├── README.md                         # Project Documentation
-└── screenshots/                      # Optional: add images of Zipkin & Admin dashboards```
+└── screenshots/                      # Optional: add images of Zipkin & Admin dashboards
 
 ## 🧩**Microservice Architecture**
 | Service                            | Port | Responsibility                              |
@@ -111,5 +111,5 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 ### 🧩 Zipkin Server
 ![Zipkin Server](Screenshots/zipkin-server.png)
 
----
+
 
