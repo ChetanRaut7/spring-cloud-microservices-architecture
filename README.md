@@ -46,7 +46,7 @@ A fully functional Spring Boot Microservices Project built with a distributed ar
 +------------------------+       +------------------------+
 
 
-📁 Folder Structure
+## 📁 Folder Structure
 currency-microservices/
 │
 ├── eureka-server/                    # Service Discovery (Eureka)
@@ -88,7 +88,7 @@ currency-microservices/
 
 
 
-🧩 Microservice Architecture
+## 🧩 Microservice Architecture
 
 | Service                            | Port | Responsibility                              |
 | ---------------------------------- | ---- | ------------------------------------------- |
@@ -101,7 +101,7 @@ currency-microservices/
 | 🖥️ **Spring Boot Admin Server**    | 9000 | Monitors and manages all microservices      |
 
 
-⚙️ Project Flow
+## ⚙️ Project Flow
 1. A request comes to API Gateway (8080) → /api/v1/conversion
 2. Gateway routes to Currency Conversion Service (8006).
 3. Conversion Service calls Currency Exchange Service (8005) via Feign Client.
@@ -110,7 +110,7 @@ currency-microservices/
 6. Subsequent identical requests return instantly from Redis (no DB call).
 7. All services send tracing data to Zipkin (9411) and health data to Admin Server (9000).
 
-🧮 Caching Behavior
+## 🧮 Caching Behavior
 
 ✅ First request: Fetches data from ExchangeService → Saves in DB → Stores in Redis
 ✅ Subsequent requests: Fetched directly from Redis cache
@@ -158,7 +158,7 @@ Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to
 
 
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 🧩 Eureka Server
 🧩 Admin Server
 🧩 Conversion Service (Postman Test)
