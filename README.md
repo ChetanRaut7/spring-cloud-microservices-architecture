@@ -164,7 +164,7 @@ Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to
 🧩 Zipkin Server (Tracing View)
 
 ### 🧩 Eureka Server
-![Eureka Server](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/eureka-server.png)
+![Eureka Server](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/refs/heads/main/Screenshots/eureka-server.pngg)
 
 ### 🧩 Admin Server
 ![Admin Server](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/admin-server.png)
