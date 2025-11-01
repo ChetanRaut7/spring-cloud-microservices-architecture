@@ -64,7 +64,8 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 │
 ├── pom.xml                           # Parent POM (if using multi-module)
 ├── README.md                         # Project Documentation
-└── screenshots/                      # Optional: add images of Zipkin & Admin dashboards
+└── screenshots/                      # Optional: add images of Zipkin & Admin dashboards```
+
 
 ## 🧩**Microservice Architecture**
 | Service                            | Port | Responsibility                              |
@@ -109,7 +110,7 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 ![Conversion Postman](Screenshots/conversion-postman.png)
 
 ### 🧩 Zipkin Server
-![Zipkin Server](Screenshots/zipkin-server.png)```
+![Zipkin Server](Screenshots/zipkin-server.png)
 
 
 
