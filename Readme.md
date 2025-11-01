@@ -25,7 +25,7 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 
 ## 📁 **Folder Structure**
 
-Currency-microservices/
+```Currency-microservices/
 │
 ├── eureka-server/                    # Service Discovery (Eureka)
 │   ├── src/main/java/com/sathya/eureka/
