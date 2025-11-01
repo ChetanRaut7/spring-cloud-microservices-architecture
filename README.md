@@ -5,6 +5,22 @@ A fully functional Spring Boot Microservices Project built with a distributed ar
 
 
 🚀 Tech Stack
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+|  |  | 
+
+
+
+
+
 
 | Component                      | Technology                     |
 | ------------------------------ | ------------------------------ |
