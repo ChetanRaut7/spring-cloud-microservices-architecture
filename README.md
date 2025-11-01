@@ -1,4 +1,4 @@
-🧭 Currency Conversion Microservices Project
+## **🧭 Currency Conversion Microservices Project
 💡 Overview
 
 A fully functional Spring Boot Microservices Project built with a distributed architecture — demonstrating service discovery, API gateway routing, inter-service communication (Feign Client), centralized configuration, Redis caching, distributed tracing (Zipkin), and Spring Boot Admin monitoring.
