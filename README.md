@@ -178,3 +178,4 @@ Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to
 ### 🧩 Zipkin Server
 ![Zipkin Server](Screenshots/zipkin-server.png)
 
+
