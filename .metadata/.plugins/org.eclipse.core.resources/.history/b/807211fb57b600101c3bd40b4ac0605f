@@ -1,0 +1,5 @@
+package com.sathya.cache;
+
+public class JacksonConfig {
+
+}

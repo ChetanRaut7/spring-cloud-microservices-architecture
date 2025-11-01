@@ -1,0 +1,5 @@
+package com.sathya.cache.config;
+
+public class CacheConfig {
+
+}
