@@ -164,19 +164,20 @@ Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to
 🧩 Zipkin Server (Tracing View)
 
 ### 🧩 Eureka Server
-![Eureka Server](Screenshots/eureka-server.png)
+![Eureka Server](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/eureka-server.png)
 
 ### 🧩 Admin Server
-![Admin Server](Screenshots/admin-server.png)
+![Admin Server](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/admin-server.png)
 
 ### 🧩 Admin Wallboard
-![Admin Wallboard](Screenshots/admin-wallboard.png)
+![Admin Wallboard](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/admin-wallboard.png)
 
 ### 🧩 Conversion Service (Postman Test)
-![Conversion Postman](Screenshots/conversion-postman.png)
+![Conversion Postman](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/conversion-postman.png)
 
 ### 🧩 Zipkin Server
-![Zipkin Server](Screenshots/zipkin-server.png)
+![Zipkin Server](https://raw.githubusercontent.com/ChetanRaut7/spring-cloud-microservices-architecture/main/Screenshots/zipkin-server.png)
+
 
 
 
