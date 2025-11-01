@@ -109,7 +109,8 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 ![Conversion Postman](Screenshots/conversion-postman.png)
 
 ### 🧩 Zipkin Server
-![Zipkin Server](Screenshots/zipkin-server.png)
+![Zipkin Server](Screenshots/zipkin-server.png)```
+
 
 
 
