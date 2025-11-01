@@ -22,7 +22,7 @@ A fully functional Spring Boot Microservices Project built with a distributed ar
 
 🧩 Architecture Overview
 
-+------------------------+
+```+------------------------+
 |  API Gateway (8080)    |
 |  - Routes all traffic  |
 +-----------+------------+
@@ -43,11 +43,11 @@ A fully functional Spring Boot Microservices Project built with a distributed ar
 +------------------------+       +------------------------+
 | Admin Server (9000)    |       | Zipkin Server (9411)    |
 | Monitoring Dashboard   |       | Distributed Tracing      |
-+------------------------+       +------------------------+
++------------------------+       +------------------------+ ```
 
 
 📁 Folder Structure
-currency-microservices/
+```currency-microservices/
 │
 ├── eureka-server/                    # Service Discovery (Eureka)
 │   ├── src/main/java/com/sathya/eureka/
@@ -84,7 +84,7 @@ currency-microservices/
 ├── zipkin-server/                    # Distributed tracing collector (Zipkin)
 │   └── docker-compose.yml
 │
-└── screenshots/                     
+└── screenshots/ ```                    
 
 
 
