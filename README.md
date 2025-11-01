@@ -1,10 +1,10 @@
-🧭 Currency Conversion Microservices Project
-💡 Overview
+# 🧭 Currency Conversion Microservices Project
+## 💡 Overview
 
 A fully functional Spring Boot Microservices Project built with a distributed architecture — demonstrating service discovery, API gateway routing, inter-service communication (Feign Client), centralized configuration, Redis caching, distributed tracing (Zipkin), and Spring Boot Admin monitoring.
 
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 
 | Component                      | Technology                     |
 | ------------------------------ | ------------------------------ |
@@ -20,9 +20,9 @@ A fully functional Spring Boot Microservices Project built with a distributed ar
 | 🐳 Runtime                     | Java 17+                       |
 
 
-🧩 Architecture Overview
+## 🧩 Architecture Overview
 
-+------------------------+
+```+------------------------+
 |  API Gateway (8080)    |
 |  - Routes all traffic  |
 +-----------+------------+
@@ -43,10 +43,10 @@ A fully functional Spring Boot Microservices Project built with a distributed ar
 +------------------------+       +------------------------+
 | Admin Server (9000)    |       | Zipkin Server (9411)    |
 | Monitoring Dashboard   |       | Distributed Tracing      |
-+------------------------+       +------------------------+
++------------------------+       +------------------------+ ```
 
 
-## 📁 Folder Structure
+📁 Folder Structure
 currency-microservices/
 │
 ├── eureka-server/                    # Service Discovery (Eureka)
@@ -84,11 +84,11 @@ currency-microservices/
 ├── zipkin-server/                    # Distributed tracing collector (Zipkin)
 │   └── docker-compose.yml
 │
-└── screenshots/                     
+└── screenshots/ ```                    
 
 
 
-## 🧩 Microservice Architecture
+🧩 Microservice Architecture**
 
 | Service                            | Port | Responsibility                              |
 | ---------------------------------- | ---- | ------------------------------------------- |
@@ -147,7 +147,6 @@ Zipkin Tracing	http://localhost:9411
 Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to/INR/quantity/10
 
 🧠 Features
-
 ✅ Eureka-based service registration and discovery
 ✅ API Gateway routing
 ✅ Feign client inter-service communication
@@ -158,7 +157,7 @@ Currency API (via Gateway)	http://localhost:8080/currency-conversion/from/USD/to
 
 
 
-## 🖼️ Screenshots
+ 🖼️ Screenshots
 🧩 Eureka Server
 🧩 Admin Server
 🧩 Conversion Service (Postman Test)
