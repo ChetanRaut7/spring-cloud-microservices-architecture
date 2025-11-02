@@ -22,7 +22,7 @@ A distributed Spring Boot microservices project demonstrating service discovery,
 | 🐳 **Runtime**                  | Java 17+                       |
 
 ---
-
+```
 ## 📁 **Folder Structure**
 
 Currency-microservices/
@@ -66,7 +66,7 @@ Currency-microservices/
 ├── README.md                         # Project Documentation
 └── screenshots/                      # Optional: add images of Zipkin & Admin dashboards
 
-
+```
 ## 🧩**Microservice Architecture**
 | Service                            | Port | Responsibility                              |
 | ---------------------------------- | ---- | ------------------------------------------- |
