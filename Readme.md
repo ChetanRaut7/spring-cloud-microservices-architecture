@@ -113,5 +113,69 @@ Currency-microservices/
 ![Zipkin Server](Screenshots/zipkin-server.png)
 
 
+##⚡ **How to Run Locally**
 
+**Start Eureka Server**
+
+mvn spring-boot:run -pl eureka-server
+
+
+**Start Config Server**
+
+mvn spring-boot:run -pl config-server
+
+
+Start other microservices (Currency, Conversion, Gateway, Admin, Zipkin)
+Each service will automatically register with Eureka and use config from GitHub.
+
+**Access Services:**
+
+**Service	URL**
+Eureka Dashboard	http://localhost:8761
+
+Config Server	http://localhost:8888
+
+API Gateway	http://localhost:8080
+
+Currency Service	http://localhost:8005
+
+Conversion Service	http://localhost:8006
+
+Admin Server	http://localhost:9000
+
+Zipkin Server	http://localhost:9411
+🧾 Example API Calls
+
+Currency Service Example:
+
+GET http://localhost:8005/currency/USD
+
+
+Conversion Service Example:
+
+GET http://localhost:8006/conversion/from/USD/to/INR/amount/100
+
+
+Through Gateway:
+
+GET http://localhost:8080/conversion-service/conversion/from/USD/to/INR/amount/100
+
+**🧩 Monitoring and Tracing**
+
+View all services in Spring Boot Admin Dashboard
+
+View API call traces in Zipkin UI
+
+All logs are traced automatically using management.zipkin.tracing.endpoint
+
+**🏁 Future Enhancements**
+
+🔹 Add JWT authentication for secured endpoints
+🔹 Integrate Grafana + Prometheus for advanced monitoring
+🔹 Dockerize all services for containerized deployment
+
+**👨‍💻 Author**
+
+Chetan Raut
+📧 Developer | Spring Boot Enthusiast
 
